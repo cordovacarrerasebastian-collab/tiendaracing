@@ -73,12 +73,13 @@ function renderProducts(list = productos) {
         const card = document.createElement("div");
         card.className = "product-card";
 
-        card.innerHTML = `
-            <img src="${p.imagenes[0]}" class="product-img" data-id="${p.id}">
-            <h3>${p.nombre}</h3>
-            <p class="price">$${p.precio}</p>
-            <button class="add-btn" data-id="${p.id}">Agregar</button>
-        `;
+       card.innerHTML = `
+    <img src="${p.imagenes[0]}" class="product-img" alt="${p.nombre}">
+    <h3>${p.nombre}</h3>
+    <p class="price">$${p.precio ?? "Consultar"}</p>
+    <button class="add-btn" data-id="${p.id}">Agregar</button>
+`;
+
 
         if (p.id < 100) camperas.appendChild(card);
         else if (p.id < 200) remeras.appendChild(card);
