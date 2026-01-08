@@ -11,11 +11,11 @@ const CONFIG = {
  *************************************************/
 const productos = [
     /* CAMPERAS */
-    { id: 1, nombre: "Aston Martin", tipo: "f1", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera1.jpeg"] },
-    { id: 2, nombre: "Formula 1 Pelicula", tipo: "f1", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera2.jpeg"] },
+    { id: 1, nombre: "Aston Martin", tipo: "f1", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera1.jpg"] },
+    { id: 2, nombre: "Formula 1 Pelicula", tipo: "f1", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera2.jpg"] },
     { id: 3, nombre: "Ferrari Roja", tipo: "f1", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera3.jpeg"] },
     { id: 4, nombre: "Honda Ayrton Senna", tipo: "f1", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera4.jpeg"] },
-    { id: 5, nombre: "Mercedes-Benz", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera5.jpeg"] },
+    { id: 5, nombre: "Mercedes-Benz", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera5.jpg"] },
     { id: 6, nombre: "McLaren", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera6.jpeg"] },
     { id: 7, nombre: "Red Bull", categoria: "f1", precio: 130000, imagenes: ["img/camperas/campera7.jpeg"] },
     { id: 8, nombre: "WRC Negra", categoria: "rally", precio: 130000, imagenes: ["img/camperas/campera8.jpeg"] },
@@ -190,3 +190,4 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
  * INIT
  *************************************************/
 renderProducts();
+
